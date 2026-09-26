@@ -65,7 +65,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 9 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 37 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 37 entries
-- [Agent Decisions](categories/agent-decisions.md) — 54 entries
+- [Agent Decisions](categories/agent-decisions.md) — 55 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 9 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 32 entries
 - [Calibration & Research](categories/calibration-research.md) — 34 entries
@@ -317,6 +317,7 @@ Source file: [`categories/agent-decisions.md`](categories/agent-decisions.md)
 - [jev-browser-bridge](https://github.com/lexmount/jev-browser-bridge) ![type: library](https://img.shields.io/badge/type-library-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/lexmount/jev-browser-bridge?style=flat-square&label=%E2%98%85) - Browser agents: plugs any CDP browser into a Jev loop, where a Jev `Choice` picks the operation and its target element each step from candidates read off the DOM rather than the layout, so the same agent runs on Chrome and on engines that never draw a page (Moli, Lightpanda, Kitesurf), passing at least 90% of runs on each of fourteen browsers tested.
 - [Eliza](https://github.com/elizaOS/eliza) ![stars](https://img.shields.io/github/stars/elizaOS/eliza?style=flat-square&label=%E2%98%85) - Autonomous agents: multi-agent framework integrating TypeSafe System One decision services for sub-100ms intent classification, action dispatching, and confidence-gated tool execution.
 - [oh-my-claudecode](https://github.com/Yeachan-Heo/oh-my-claudecode) ![agent: Claude Code](https://img.shields.io/badge/agent-Claude%20Code-C1512C?style=flat-square) ![type: plugin](https://img.shields.io/badge/type-plugin-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Yeachan-Heo/oh-my-claudecode?style=flat-square&label=%E2%98%85) - Coding agents: multi-agent team orchestration for Claude Code featuring opt-in Jev hooks for sub-millisecond judgment points, decision caching, and per-point egress controls.
+- [jcode](https://github.com/1jehuang/jcode) ![stars](https://img.shields.io/github/stars/1jehuang/jcode?style=flat-square&label=%E2%98%85) - Agent runtimes: RAM-efficient autonomous agent harness implemented in Rust with native TypeSafe Jev typed decision transport for memory pruning, browser navigation, and voice interaction routing.
 
 ### Data Labeling & Curation
 
