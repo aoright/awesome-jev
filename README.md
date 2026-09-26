@@ -61,14 +61,14 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 45 entries
+- [Classification & Routing](categories/classification-routing.md) — 46 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 9 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 37 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 37 entries
 - [Agent Decisions](categories/agent-decisions.md) — 55 entries
 - [Data Labeling & Curation](categories/data-labeling-curation.md) — 9 entries
 - [Evaluation & Benchmarking](categories/evaluation-benchmarking.md) — 32 entries
-- [Calibration & Research](categories/calibration-research.md) — 36 entries
+- [Calibration & Research](categories/calibration-research.md) — 37 entries
 - [Infra / SDKs / Integrations](categories/infra-sdks-integrations.md) — 84 entries
 - [Game & Simulation](categories/game-simulation.md) — 24 entries
 - [Finance & Trading](categories/finance-trading.md) — 7 entries
@@ -161,6 +161,7 @@ Source file: [`categories/classification-routing.md`](categories/classification-
 - [SiYuan](https://github.com/siyuan-note/siyuan) ![stars](https://img.shields.io/github/stars/siyuan-note/siyuan?style=flat-square&label=%E2%98%85) - Knowledge management: privacy-first personal knowledge management system featuring native Jev decision model integration for high-speed document classification, flashcard intent categorization, and automated tag routing.
 - [Paca](https://github.com/Paca-AI/paca) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Paca-AI/paca?style=flat-square&label=%E2%98%85) - Project management: self-hosted open-source Jira alternative that auto-assigns tasks with a Jev `Choice` over member descriptions, fills blank task fields with `Choice` and `Score` questions, and routes automation workflows on a `Choice`/`Score`/`Noul` condition node, applying answers only at 0.6 confidence or above and otherwise leaving the task unassigned or taking the Else branch.
 - [Qualm](https://github.com/RoderickQiu/qualm) ![stars](https://img.shields.io/github/stars/RoderickQiu/qualm?style=flat-square&label=%E2%98%85) - Digital wellbeing: macOS menu bar app that reads the screen as text through the Accessibility API and asks Jev (or Kev, its local open-source counterpart) one `Choice` per user rule plus a `Noul` on whether the page is a payment, login or banking screen, stepping in with a pop-up only when a rule's probability clears its threshold and never on sensitive pages; on 119 trial pages with Kev, the short-video, feed, livestream and video rules had precision 1.00.
+- [Auto-optimizing Jev: half the errors, 1/7 the cost](https://kiln.tech/blog/auto_optimizing_jev_with_autoresearch) - Text classification: asks Jev a `Choice` over the readings of a Chinese polyphonic character while the model stays fixed and only the harness around it is optimised, ending at half the errors for a seventh of the cost.
 
 ### Adaptive & Realtime UI
 
@@ -411,6 +412,7 @@ Source file: [`categories/calibration-research.md`](categories/calibration-resea
 - [Jev Prime](https://github.com/xucian/talktojev) ![type: hosted](https://img.shields.io/badge/type-hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/xucian/talktojev?style=flat-square&label=%E2%98%85) - Text generation: a conversational agent with no language model, where every word is picked from ~4,700 options by Jev `Choice` questions one at a time, with confidence driving lookahead when the top pick falls below 0.65, beam search across sentence directions, and a self-critique loop that rewrites sentences scoring below threshold; live at talktojev.com, paper at doi.org/10.5281/zenodo.22940945.
 - [RSI-Jev](https://github.com/Shanghua-Gao/RSI-Jev) ![stars](https://img.shields.io/github/stars/Shanghua-Gao/RSI-Jev?style=flat-square&label=%E2%98%85) - Trainable replica: 0.8B and 2B open models answering `Noul`, `Choice` and `Score` on the same `POST /v1/systemone` wire format in one forward pass, researched and trained by a recursively self-improving AutoScientists loop that publishes every experiment it ran — 0.662 pooled top-1 against Jev's 0.727 over 2,000 held-out typed decisions, about 10 ms per further decision on a document already read, no confidence bin below its stated probability, and acting on only the top 40% by confidence is 80% correct.
 - [CLM](https://github.com/Contrastive-LM/CLM) ![stars](https://img.shields.io/github/stars/Contrastive-LM/CLM?style=flat-square&label=%E2%98%85) - Open alternative: an 8B System One model that answers the same `Choice` and `Noul` questions behind a TypeSafe-compatible API, matching Jev across computer-use, gaming and tool-calling with up to 9x lower latency and reporting 87.6% on Terminal-Bench 2.1 as a fine-tuned verifier.
+- [Bespoke Nimble](https://github.com/bespokelabsai/nimble) ![stars](https://img.shields.io/github/stars/bespokelabsai/nimble?style=flat-square&label=%E2%98%85) - Open alternative: a LoRA on Qwen3.5-9B that scores one allowed answer token per `Choice`, boolean or rubric-score question, released with its data pipeline, training config and eval harness under Apache-2.0, and reporting 90.1% on its 324-example holdout against Jev's 93.2%.
 
 ### Infra / SDKs / Integrations
 
