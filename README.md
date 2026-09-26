@@ -61,7 +61,7 @@ Found something wrong? Open an issue or a pull request — **removal is as valid
 
 ## Current coverage
 
-- [Classification & Routing](categories/classification-routing.md) — 44 entries
+- [Classification & Routing](categories/classification-routing.md) — 45 entries
 - [Adaptive & Realtime UI](categories/adaptive-realtime-ui.md) — 9 entries
 - [Verification & Guardrails](categories/verification-guardrails.md) — 37 entries
 - [Scoring & Ranking](categories/scoring-ranking.md) — 37 entries
@@ -160,6 +160,7 @@ Source file: [`categories/classification-routing.md`](categories/classification-
 - [inbox-zero](https://github.com/elie222/inbox-zero) ![stars](https://img.shields.io/github/stars/elie222/inbox-zero?style=flat-square&label=%E2%98%85) - Email productivity: open-source AI email assistant that uses TypeSafe Jev System One decision models to classify incoming email intent and triage action items.
 - [SiYuan](https://github.com/siyuan-note/siyuan) ![stars](https://img.shields.io/github/stars/siyuan-note/siyuan?style=flat-square&label=%E2%98%85) - Knowledge management: privacy-first personal knowledge management system featuring native Jev decision model integration for high-speed document classification, flashcard intent categorization, and automated tag routing.
 - [Paca](https://github.com/Paca-AI/paca) ![type: self-hosted](https://img.shields.io/badge/type-self--hosted-4B5563?style=flat-square) ![stars](https://img.shields.io/github/stars/Paca-AI/paca?style=flat-square&label=%E2%98%85) - Project management: self-hosted open-source Jira alternative that auto-assigns tasks with a Jev `Choice` over member descriptions, fills blank task fields with `Choice` and `Score` questions, and routes automation workflows on a `Choice`/`Score`/`Noul` condition node, applying answers only at 0.6 confidence or above and otherwise leaving the task unassigned or taking the Else branch.
+- [Qualm](https://github.com/RoderickQiu/qualm) ![stars](https://img.shields.io/github/stars/RoderickQiu/qualm?style=flat-square&label=%E2%98%85) - Digital wellbeing: macOS menu bar app that reads the screen as text through the Accessibility API and asks Jev (or Kev, its local open-source counterpart) one `Choice` per user rule plus a `Noul` on whether the page is a payment, login or banking screen, stepping in with a pop-up only when a rule's probability clears its threshold and never on sensitive pages; on 119 trial pages with Kev, the short-video, feed, livestream and video rules had precision 1.00.
 
 ### Adaptive & Realtime UI
 
